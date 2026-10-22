@@ -1,0 +1,5 @@
+{
+  "name": "dashmood-deploy", "version": "0.1.0", "private": true,
+  "type": "module", "workspaces": ["apps/*"],
+  "scripts": {"build": "npm run build -w apps/frontend", "start": "node apps/api/server.js", "test": "node --test tests/*.test.js"}
+}
